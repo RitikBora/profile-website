@@ -1,5 +1,5 @@
-import CloseButton from "./CloseButton";
-import { MenuButton } from "./MenuButton";
+import CloseButton from "./buttons/CloseButton";
+import { MenuButton } from "./buttons/MenuButton";
 
 export function Menu() {
     return (

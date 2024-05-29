@@ -9,7 +9,7 @@ function App() {
 
   return (
     <RecoilRoot>
-      <div className='h-screen w-screen bg-customGray'>
+      <div className='min-h-screen bg-customGray'>
         <Appbar/>
         <Landing/>
       </div>

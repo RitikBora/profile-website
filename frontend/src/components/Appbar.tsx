@@ -1,4 +1,4 @@
-import HamburgerButton from "./HamburgerButton";
+import HamburgerButton from "./buttons/HamburgerButton";
 
 export function Appbar() 
 {

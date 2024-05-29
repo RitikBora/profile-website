@@ -1,5 +1,5 @@
 import { useSetRecoilState } from "recoil";
-import { navVisibleAtom } from "../recoil/navVisibleAtom";
+import { navVisibleAtom } from "../../recoil/navVisibleAtom";
 
 const CloseButton = () => {
   const setIsNavVisible = useSetRecoilState(navVisibleAtom);

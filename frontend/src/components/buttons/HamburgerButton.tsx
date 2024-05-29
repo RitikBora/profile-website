@@ -1,6 +1,6 @@
-import { Menu } from "./Menu";
+import { Menu } from "../Menu";
 import { useRecoilState } from "recoil";
-import { navVisibleAtom } from "../recoil/navVisibleAtom";
+import { navVisibleAtom } from "../../recoil/navVisibleAtom";
 
 const HamburgerButton = () => {
 

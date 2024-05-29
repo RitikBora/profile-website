@@ -1,6 +1,6 @@
 import { useSetRecoilState } from "recoil";
-import { selectedPageAtom } from "../recoil/selectedPage";
-import { navVisibleAtom } from "../recoil/navVisibleAtom";
+import { selectedPageAtom } from "../../recoil/selectedPage";
+import { navVisibleAtom } from "../../recoil/navVisibleAtom";
 
 export const MenuButton = ({innerText} : {innerText : string}) => {
 
