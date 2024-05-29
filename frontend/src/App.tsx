@@ -2,6 +2,7 @@
 import { RecoilRoot } from 'recoil'
 import './App.css'
 import { Appbar } from './components/Appbar'
+import { Landing } from './components/Landing'
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <RecoilRoot>
       <div className='h-screen w-screen bg-customGray'>
         <Appbar/>
+        <Landing/>
       </div>
     </RecoilRoot>
   )
