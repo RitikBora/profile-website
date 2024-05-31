@@ -3,5 +3,66 @@
 @tailwind utilities;
 
 
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.effect-4 {
+  position: absolute;
+  border-top: 35px solid transparent;
+  border-left: 35px solid #06d79c;
+  left: 30%;
+  top: 20%;
+  animation: spin 15s linear infinite;
+}
+
+.effect-4::before {
+  content: '';
+  position: absolute;
+  border-top: 35px solid transparent;
+  border-left: 35px solid #06d79c;
+  opacity: 0.5;
+  left: -40px;  
+  top: -30px; }
+
+  .effect-1 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 4px solid #8a49ff;
+  right: 10%;
+  bottom: 10%;
+  animation: spin 10s linear infinite;
+}
 
 
+@keyframes topBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(25px);
+  }
+}
+
+.effect-2 {
+  left: 3%;
+  bottom: 20%;
+  width: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  animation: topBounce 3s ease-in-out infinite; /* Add this line */
+}
+
+.effect-2 div {
+  height: 3px;
+  width: 3px;
+  background-color: #ff9c07;
+  margin: 0 3px 8px;
+}

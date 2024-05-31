@@ -2,7 +2,7 @@ import { useSetRecoilState } from "recoil"
 import { selectedPageAtom } from "../../recoil/selectedPage"
 import { RoundedButton } from "../buttons/RoundedButton";
 import { ProfilePhoto } from "../profilPhoto";
-import CircleBounce from "../../animations/CircleBounce";
+import { Animations } from "../../animations/Animations";
 
 export const Home =  () =>
 {
@@ -14,7 +14,7 @@ export const Home =  () =>
     } 
     return (
         <div className="mx-48">
-            <CircleBounce/>
+            <Animations/>
             <div className="px-8 grid grid-cols-2">
                 <div className="py-48">
                     <div className="text-xl text-gray-400 py-2">
