@@ -51,18 +51,41 @@
 }
 
 .effect-2 {
-  left: 3%;
-  bottom: 20%;
-  width: 40px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  animation: topBounce 3s ease-in-out infinite; /* Add this line */
+  animation: topBounce 3s ease-in-out infinite;  
 }
 
 .effect-2 div {
-  height: 3px;
-  width: 3px;
+  height: 4px;
+  width: 4px;
   background-color: #ff9c07;
-  margin: 0 3px 8px;
+  margin: 2px 2px;
 }
+
+.effect-5 {
+  height: 50px;
+  width: 50px;
+  right: 8%;
+  top: 30%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 50%;
+  overflow: hidden;
+  animation: spin 10s linear infinite;
+}
+
+.effect-5 div {
+  width: 4px;
+  background-color: #4dd0e1;
+  opacity: 0.3;
+}
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
