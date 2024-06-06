@@ -1,4 +1,7 @@
 import RoundedButton from "../buttons/RoundedButton"
+import SocialAnchor from "../buttons/SocialButton"
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin, FaYoutube, FaGithub } from 'react-icons/fa';
+
 
 export const About =  () =>
 {
@@ -12,10 +15,20 @@ export const About =  () =>
                 ABOUT ME
             </div>
             <div className="grid grid-cols-7 pt-24">
-                <div className=" col-span-3 flex justify-end mr-16">
-                    <div className="shadow-inner  rounded-lg flex justify-center items-center" style={{width: "430px" , height: "430px"}}>
-                        <img src="about.png" width="400px" height="400px" alt="Bora.jpg" className=""/>
-                    </div>
+                <div className=" col-span-3 flex justify-end mr-16 -mt-10">
+                    <div>
+                        <div className="shadow-inner  rounded-lg flex justify-center items-center" style={{width: "375px" , height: "374px"}}>
+                            <img src="about.png" width="350px" height="350px" alt="Bora.jpg" className=""/>
+                        </div>
+                        <div className="flex justify-between my-4 mx-12">
+                            <SocialAnchor href="https://www.facebook.com/profile.php?id=100037982433622" icon={FaFacebookF} />
+                            <SocialAnchor href="https://twitter.com/AdityaK25587732" icon={FaTwitter} />
+                            <SocialAnchor href="https://www.instagram.com/timmyaditya/" icon={FaInstagram} />
+                            <SocialAnchor href="https://www.linkedin.com/in/aditya-kharat-21366a190" icon={FaLinkedin} />
+                            <SocialAnchor href="https://youtu.be/f-POU0lphJ0" icon={FaYoutube} />
+                            <SocialAnchor href="https://github.com/timmyaditya" icon={FaGithub} />
+                        </div>
+                    </div>                    
                 </div>
                 <div className="text-lg text-neutral-500 col-span-4 ">
                     <div className="">
