@@ -2,7 +2,7 @@ import { useRecoilValue } from "recoil"
 import { selectedPageAtom } from "../recoil/selectedPage"
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
-import { Services } from "./pages/Services";
+import { Career } from "./pages/Career";
 import { Portfolio } from "./pages/Portfolio";
 import { Testimonial } from "./pages/Testimonial";
 import { Contact } from "./pages/Contact";
@@ -19,8 +19,8 @@ export const Landing = () => {
                             return <Home/>;
                         case "about":
                             return <About/>;
-                        case "services":
-                            return <Services/>;
+                        case "career":
+                            return <Career/>;
                         case "portfolio":
                             return <Portfolio/>;
                             case "testimonial":

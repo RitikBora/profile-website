@@ -1,7 +1,7 @@
 import { useSetRecoilState } from "recoil"
 import { selectedPageAtom } from "../../recoil/selectedPage"
 import { RoundedButton } from "../buttons/RoundedButton";
-import { ProfilePhoto } from "../profilPhoto";
+import { ProfilePhoto } from "../profilePhoto";
 import { Animations } from "../../animations/Animations";
 
 export const Home =  () =>

@@ -13,7 +13,7 @@ export function Menu() {
                     <ul className="flex flex-col">
                         <li className="flex justify-center"><MenuButton innerText="Home"/></li>
                         <li className="flex justify-center"><MenuButton innerText="About"/></li>
-                        <li className="flex justify-center"><MenuButton innerText="Services"/></li>
+                        <li className="flex justify-center"><MenuButton innerText="Career"/></li>
                         <li className="flex justify-center"><MenuButton innerText="Portfolio"/></li>
                         <li className="flex justify-center"><MenuButton innerText="Testimonial"/></li>
                         <li className="flex justify-center"><MenuButton innerText="Contact"/></li>
