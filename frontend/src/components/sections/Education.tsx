@@ -1,9 +1,4 @@
 import { EducationTimeLine } from '../timeline/EducationTimeLine';
-import { TimeLine } from '../timeline/TimeLine';
-
-
-
-
 
 export const Education = () =>
 {
