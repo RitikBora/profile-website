@@ -44,3 +44,23 @@
   font-weight: 500;
   color: var(--text-black-600);
 }
+
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 20px; /* Add spacing between timeline items */
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 400px;
+  background: gray; /* The vertical line */
+}
+
