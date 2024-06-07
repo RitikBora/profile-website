@@ -64,3 +64,21 @@
   background: gray; /* The vertical line */
 }
 
+.education-timeline {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 20px; /* Add spacing between timeline items */
+}
+
+.education-timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 500px;
+  background: gray; /* The vertical line */
+}
+
