@@ -17,7 +17,7 @@ const downloadResume = () =>
 export const About =  () =>
 {
     return (
-        <div className="  flex justify-center items-center ">
+        <div className="">
            <div>
                  <div className="flex justify-center text-xl font-bold pt-6" style={{color: "#ec9412"}}>
                 

@@ -12,7 +12,9 @@ function App() {
     <RecoilRoot>
       <div className='min-h-screen bg-customGray'>
         <Appbar/>
-        <Landing/>
+        <div className='flex justify-center image center'>
+          <Landing/>
+        </div>
       </div>
     </RecoilRoot>
   )

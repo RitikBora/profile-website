@@ -15,10 +15,10 @@ export const Testimonial = () => {
 
     return (
         <div className="flex justify-center items-center   bg-customGray">
-            <div className="w-full max-w-4xl">
+            <div className=" max-w-6xl">
                 <h1 className="text-xl md:text-2xl font-bold text-center mb-2" style={{ color: "#ec9412" }}>Testimonials</h1>
                 <h1 className="text-2xl md:text-2xl font-bold text-center mb-4">Managers Speak</h1>
-                <div className="shadow-custom-box-xl mt-10 w-full p-3 bg-customGrat rounded-lg">
+                <div className="shadow-custom-box-xl mt-10 w-full p-3 bg-customGray rounded-lg">
                     {testimonials.map((testimonial) => (
                         <div>
                             <div key={testimonial.id}>
