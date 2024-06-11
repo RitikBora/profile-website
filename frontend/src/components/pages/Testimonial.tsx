@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa';
 import RoundedButton from '../buttons/RoundedButton';
 
