@@ -5,7 +5,7 @@ export const  EducationTimeLine = () =>
 {
     return (
         <div className="">
-            <div className="education-timeline">
+            <div className="education-timeline" style={{color : "#ec9412"}}>
                 
                 <div className='z-10 pt-5'>    
                     <TimeLineIcon

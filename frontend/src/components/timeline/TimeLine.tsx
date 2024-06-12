@@ -7,13 +7,13 @@ export const  TimeLine = () =>
         <div className="">
             <div className="timeline">
                 
-                <div className='z-10 pt-5'>    
+                <div className='z-10 pt-5 ' style={{color : "#ec9412"}}>    
                     <TimeLineIcon
                     icon={<FaBriefcase />}
                     extraClasses="-left-5 top-6"
                     />
                 </div>
-                <div className='z-10 pt-44'>
+                <div className='z-10 pt-44' style={{color : "#ec9412"}}>
                     <TimeLineIcon
                     icon={<FaBriefcase />}
                     extraClasses="-right-5 bottom-1"
