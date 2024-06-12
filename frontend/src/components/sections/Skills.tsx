@@ -6,14 +6,14 @@ export const Skills = () =>
         <div className="pt-20 mx-56">
              <div className="skills grid grid-cols-2">
                 <div>
-                    <SkillItem skill="Java" percentage={80} />
-                    <SkillItem skill="Android" percentage={75} />
-                    <SkillItem skill="SpringBoot" percentage={70} />
+                    <SkillItem skill="ReactJs" percentage={80} />
+                    <SkillItem skill="Nodejs" percentage={75} />
+                    <SkillItem skill="Nextjs" percentage={60} />
                 </div>
                 <div>
+                    <SkillItem skill="Java" percentage={75} />
                     <SkillItem skill="Sql" percentage={70} />
-                    <SkillItem skill="Dbms" percentage={70} />
-                    <SkillItem skill="Project Managment" percentage={80} />
+                    <SkillItem skill="Aws" percentage={50} />
                 </div>
             </div>
         </div>

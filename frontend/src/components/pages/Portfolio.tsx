@@ -13,7 +13,7 @@ export const Portfolio =  () =>
 ];
 
     return (
-        <div className="flex justify-center items-center m-20">
+        <div className="flex justify-center items-center mx-20 my-10">
             <div className="max-w-4xl mx-auto  ">
                 <h1 className="text-2xl font-bold text-center mb-2" style={{color : "#ec9412"}}>PORTFOLIO</h1>
                 <h1 className="text-4xl font-bold text-center mb-8">Latest work</h1>

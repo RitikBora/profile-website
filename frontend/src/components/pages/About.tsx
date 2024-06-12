@@ -19,14 +19,14 @@ export const About =  () =>
     return (
         <div className="">
            <div>
-                 <div className="flex justify-center text-xl font-bold pt-6" style={{color: "#ec9412"}}>
+                 <div className="flex justify-center text-xl font-bold pt-2" style={{color: "#ec9412"}}>
                 
                     MAIN INFO
                 </div>
                 <div className="flex justify-center text-4xl font-semibold pt-1">
                     ABOUT ME
                 </div>
-                <div className="grid grid-cols-7 pt-24">
+                <div className="grid grid-cols-7 pt-16">
                     <div className=" col-span-3 flex justify-end mr-16 -mt-10">
                         <div>
                             <div className="shadow-inner  rounded-lg flex justify-center items-center" style={{width: "375px" , height: "374px"}}>

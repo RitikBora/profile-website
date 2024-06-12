@@ -24,7 +24,7 @@ export const Home =  () =>
                         I'm Ritik Bora
                     </div>
                     <div className="text-2xl text-gray-600 py-2">
-                        Java, SpringBoot, Android and Web Developer
+                        MERN stack , Java and Web Developer
                     </div>
                     <div className="pt-6">
                         <RoundedButton innerText="More About me" onClickFunction={showAboutSection} additionalClasses="text-l py-2.5 px-4 text-green-800 font-semibold"/>

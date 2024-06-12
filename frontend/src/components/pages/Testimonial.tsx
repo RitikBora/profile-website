@@ -26,7 +26,7 @@ export const Testimonial = () => {
                                 <FaQuoteLeft className="left" size={'30px'} color='gray' />
                             </div>
                             {testimonial.paragraphs.map((paragraph, index) => (
-                                <p key={index} className="text-sm md:text-base lg:text-lg leading-relaxed mb-4">
+                                <p key={index} className="text-sm md:text-base  leading-relaxed mb-4">
                                     {paragraph}
                                 </p>
                             ))}
